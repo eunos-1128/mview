@@ -17,9 +17,9 @@ users. It is assumed that Perl is already installed and on your `PATH`.
 
 ###### Conda/Mamba/Micromamba
 
-- [Conda](https://docs.conda.io/projects/conda/en/stable/): run `conda install -c conda-forge screenfetch` after activating the environment.
-- [Mamba](https://mamba.readthedocs.io/en/latest/installation/mamba-installation.html): run `mamba install -c conda-forge screenfetch` after activating the environment.
-- [Micromamba](https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html): run `micromamba install -c conda-forge screenfetch` after activating the environment.
+- [Conda](https://docs.conda.io/projects/conda/en/stable/): run `conda install -c bioconda mview` after activating the environment.
+- [Mamba](https://mamba.readthedocs.io/en/latest/installation/mamba-installation.html): run `mamba install -c bioconda mview` after activating the environment.
+- [Micromamba](https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html): run `micromamba install -c bioconda mview` after activating the environment.
 
 ###### Pixi
 
