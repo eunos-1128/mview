@@ -1,15 +1,39 @@
 ### Installation - Linux, Apple, UNIX
 
-There are two ways to install MView.
+There are three ways to install MView.
 
 Either method can be used by an ordinary user installing into their own
 account, or by a system administrator installing onto a computer with multiple
 users. It is assumed that Perl is already installed and on your `PATH`.
 
+* [Installation using package managers](#installation-using-package-managers)
 * [Installer script](#installer-script)
 * [Manual install](#manual-install)
 * [How to set PATH](#how-to-set-path)
 
+#### Installation using package managers
+
+##### Conda-forge
+
+###### Conda/Mamba/Micromamba
+
+- [Conda](https://docs.conda.io/projects/conda/en/stable/): run `conda install -c conda-forge screenfetch` after activating the environment.
+- [Mamba](https://mamba.readthedocs.io/en/latest/installation/mamba-installation.html): run `mamba install -c conda-forge screenfetch` after activating the environment.
+- [Micromamba](https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html): run `micromamba install -c conda-forge screenfetch` after activating the environment.
+
+###### Pixi
+
+[Pixi](https://prefix.dev) install packages from conda-forge channel(a kind of package repository used in Conda ecosystem) by default but it is capable of global installation.
+
+Run `pixi global install mview -c bioconda` after installing Pixi.
+
+After installation you can use `mview` without entering any virtual environment.
+
+Furthermore, `mview` should work in every virtual environment created by conda, mamba, micromamba or pixi. 
+
+##### Homebrew/Linuxbrew
+
+Run `brew install mview` after installing [Linuxbrew](https://docs.brew.sh/Homebrew-on-Linux).
 
 #### Installer script
 
